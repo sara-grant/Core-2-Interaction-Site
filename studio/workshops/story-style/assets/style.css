@@ -1,0 +1,72 @@
+/* general */
+
+body {
+    background-color: rgb(34, 32, 153);
+    color:white;
+    padding-top: 150px;
+    padding-left: 48px;
+    padding-right: 48px;
+    font-family: 'Archivo';
+    font-size: 20px;
+}
+
+/* nav */
+
+.nav {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+}
+
+.nav-link {
+    background-color: white;
+    color: rgb(34, 32, 153);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.nav-link:hover {
+    background-color: rgb(116, 114, 236);
+    color: white;
+}
+
+/* main */
+
+.main {
+    font-size: 3rem;
+}
+
+.home .main {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.main p::selection, .main #button::selection {
+    color: rgb(116, 114, 236);
+}
+
+#button {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+
+
+#aside {
+    display: none;
+    padding-top: 20px;
+}
+
+h1:hover {
+    animation: horizontal-shaking 0.15s infinite ;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}
