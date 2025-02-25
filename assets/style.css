@@ -5,6 +5,12 @@ html {
 	padding-left:1.5em;
 	padding-right: 1.5em;
 	padding-top: 1em;
+	font-size: 1.2em;
+}
+
+h1::selection, h2::selection, h3::selection, a::selection, p::selection {
+	color: #2a0e45;
+	background-color: #bf98e1;
 }
 
 /* grid */
@@ -14,12 +20,14 @@ html {
 }
 
 .studio-projects {
-	height: auto;
+	flex: 50%;
 }
 
 .studio-workshops {
-	height:auto;
+	flex: 50%;
 }
+
+/* styles */
 
 ul {
 	list-style: none;
@@ -38,6 +46,11 @@ h2 {
 	font-size:1.75em;
 }
 
+h3 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
 
 a {
 	text-decoration: none;
@@ -45,5 +58,9 @@ a {
 }
 
 a:hover {
-	color: #6a448d;
+	color: #bf98e1;
+}
+
+.subtitle {
+	font-weight: bold;
 }
