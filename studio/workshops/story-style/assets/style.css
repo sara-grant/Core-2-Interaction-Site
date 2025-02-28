@@ -60,13 +60,11 @@ body {
 }
 
 h1:hover {
-    animation: horizontal-shaking 0.15s infinite ;
+    animation: horizontal-shaking 1s infinite ;
 }
 
 @keyframes horizontal-shaking {
-    0% { transform: translateX(0) }
-    25% { transform: translateX(5px) }
-    50% { transform: translateX(-5px) }
-    75% { transform: translateX(5px) }
-    100% { transform: translateX(0) }
-}
+    0% { transform:scale(100%)}
+    50% { transform:scale(110%)}
+    100% { transform: scale(100%)}
+};
