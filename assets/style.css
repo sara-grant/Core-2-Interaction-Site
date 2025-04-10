@@ -1,21 +1,21 @@
 html {
 	background: #e24c0c;
 	color: #e24c0c;
-	font-family: Helvetica, sans-serif;
+	font-family: "Poppins", sans-serif;
 	padding-left:1.5em;
 	padding-right: 1.5em;
 	padding-top: 1em;
-	font-size: 1.1em;
+	font-size: 1.4vw;
 }
 
 h1::selection, h2::selection, h3::selection, a::selection, p::selection {
-	color: #e24c0c;
-	background-color: #fdf5e5;
+	color: #fdf5e5;
+	background-color: #e24c0c;
 }
 
 body {
 	border: e24c0c solid 5px;
-	box-shadow: 4px 4px 15px black;
+	box-shadow: 2px 2px 12px black;
 	border-radius: 10px;
 	padding: 2em;
 	background-color: #fdf5e5;
@@ -38,7 +38,7 @@ body {
 	border: #e24c0c solid 3px;
 	border-radius: 10px;
 	transition: 1s;
-	box-shadow: 2px 2px 5px black;
+	box-shadow: 1px 1px 4px rgb(0, 0, 0);
 	}
 
 .studio-projects:hover {
@@ -70,9 +70,14 @@ ul {
 
 h1 {
 	text-transform: uppercase;
-	font-size: 3.85vw;
+	font-size: 3.9vw;
 	margin: 0;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.5em;
+}
+
+em {
+	font-weight: 500;
+	font-style: normal;
 }
 
 h2 {
@@ -82,8 +87,9 @@ h2 {
 }
 
 h3 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-transform: uppercase;
+	margin-bottom: 0;
 }
 
 
@@ -98,4 +104,5 @@ a:hover {
 
 .subtitle {
 	font-weight: bold;
+	font-weight: 600;
 }
